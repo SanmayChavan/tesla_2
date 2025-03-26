@@ -1,0 +1,50 @@
+.model_3_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url("images/model_y_page_bg.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.m3_text_img{
+    background-color: black;
+    color: white;
+}
+.m3_img{
+    width: 50%;
+    padding: 20px;
+}
+.m3_img video{
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+input{
+    background-color: gray;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 20px;
+}
+.m3_text button{
+    background-color: blue;
+    border: none;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    padding: 10px;
+    width: 170px;
+}
+.m3_text a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,148 @@
+@media (max-width:1100px) {
+    header {
+        height: 80px;
+    }
+
+    .header_section {
+        flex-direction: column;
+    }
+
+    .header_section p {
+        line-height: normal;
+    }
+
+    header button {
+        padding: 0;
+        background-color: transparent;
+        margin-left: 0;
+    }
+
+    header button a {
+        color: black;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    /* main section model-3 */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar h1 {
+        width: 100%;
+        text-align: left;
+    }
+
+    .navbar ul {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar ul li a {
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .navbar_icons i {
+        display: none;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .navbar ul {
+
+        flex-wrap: wrap;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width:1100px) {
+    .homepage_button {
+        width: 200px;
+    }
+
+    .home_page_h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:900px) {
+    .homepage_button {
+        width: 180px;
+    }
+
+    .home_page_h1 {
+        font-size: 60px;
+    }
+
+    .cybertruck_button button {
+        width: 150px;
+    }
+}
+
+@media (max-width:700px) {
+    .homepage_button {
+        width: 170px;
+    }
+
+    .home_page_h1 {
+        font-size: 50px;
+    }
+
+    .cybertruck_button button {
+        width: 130px;
+    }
+
+    .model_3_homepage {
+        background-size: 145% 100%;
+    }
+
+    .model_y_homepage {
+        background-size: 206% 100%;
+    }
+
+    .new_model_y_homepage {
+        background-size: 245% 100%;
+    }
+    .cybertruck_homepage{
+    background-size: 188% 100%;
+    }
+    .charger_homepage {
+        background-size: 198% 100%;
+    }
+}
+
+@media (max-width:400px) {
+    .homepage_button {
+        width: 130px;
+    }
+
+    .home_page_h1 {
+        font-size: 50px;
+    }
+
+    .cybertruck_button button {
+        width: 130px;
+    }
+
+    .model_3_homepage {
+        background-size: 145% 100%;
+    }
+
+    .model_y_homepage {
+        background-size: 206% 100%;
+    }
+
+    .new_model_y_homepage {
+        background-size: 245% 100%;
+    }
+    .cybertruck_homepage{
+    background-size: 188% 100%;
+    }
+    .charger_homepage {
+        background-size: 198% 100%;
+    }
+}   

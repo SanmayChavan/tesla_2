@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    height: 44px;
+    background: linear-gradient(90deg, #e4c678 0, #f2e5c2 50%, #e8d199 100%)
+}
+
+.header_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.header_section p {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.hp1 {
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+header button {
+    padding: 5px 16px;
+    border-radius: 4px;
+    background: black;
+    border: none;
+    margin-left: 10px;
+}
+
+header button a {
+    color: #e2e3e3;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*     <!-- ------------------------------END OF HEADER SECTION----------------------------------------------- --> */
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+.model_3_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url("images/Homepage-Model-3-Desktop-US.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 8px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+}
+.navbar ul li a::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: 0;
+    width: 0;
+    bottom:-5px ;
+    background-color: white;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+}
+.navbar ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar i {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.text_bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_page_h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.text_bg a {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.homepage_button {
+    width: 252px;
+    padding: 10px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.homepage_button_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blue {
+    background-color: #3457b1;
+}
+.homepage_button:hover{
+    background-color:#3457b1d5; ;
+}
+.menu{
+    display: none;
+}
+/* ------------------------------------------Model-y homepage--------------------------------- */
+.bg_model_y {
+    height: 100vh;
+    width: 100%;
+}
+
+.model_y_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/model-y-homepage.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.bg_model_y_text {
+    text-align: center;
+}
+
+.bg_model_y_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.bg_model_y_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bg_model_y a {
+    color: white;
+    font-size: 25px;
+}
+
+
+/* ------------------------------------------------------new model y--------------------------------------------------------------- */
+.new_bg_model_y {
+    height: 100vh;
+    width: 100%;
+}
+
+.new_model_y_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/homepage-newmodel-y.avif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.new_bg_model_y_text {
+    text-align: center;
+}
+
+.new_bg_model_y_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.new_bg_model_y_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.new_bg_model_y a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* --------------------------------------------------------------cyber truck------------------------------------------------------- */
+.bg_cybertruck {
+    height: 100vh;
+    width: 100%;
+}
+
+.cybertruck_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/bg_cybertruck.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.cybertruck_text {
+    text-align: center;
+}
+
+
+.cybertruck_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.cybertruck a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cybertruck_button button{
+    background-color: rgba(0, 0, 0, 5.377);
+    width: 252px;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.cybertruck_two_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cybertruck_text a{
+    color: white;
+    font-size: 20px;
+}
+.cybertruck_text{
+    padding-top:200px ;
+}
+.cybertruck_button{
+    text-align: center;
+}
+.cybertruck_button i{
+    color: white;
+    margin-bottom: 5px;
+}
+.cybertruck_button p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* -----------------------------------------------------solar--------------------------------------------------------- */
+.bg_solar{
+    height: 100vh;
+    width: 100%;
+}
+
+.solar_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/bg-solar-roof.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.solar_text {
+    text-align: center;
+}
+
+.solar_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.solar_text a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.solar_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ----------------------------------------charger-------------------------------------------------------------- */
+.bg_charger{
+    height: 100vh;
+    width: 100%;
+}
+
+.charger_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url('images/homepage-charging.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.charger_text {
+    text-align: center;
+}
+
+.charger_div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.charger_text a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* ----------------------------------footer-------------------------------------------------------------------------- */
+footer{
+    height: 200px;
+}
+footer div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-links li{
+    display: inline;
+}
+.footer-links li{
+    list-style: none;
+}
+.footer-links li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #5c5e62;
+}

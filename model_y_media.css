@@ -1,0 +1,20 @@
+@media (max-width:500px){
+    .model_3_homepage {
+        background-size: 376% 100%;    }
+}
+@media (max-width:600px){
+    .model_3_homepage {
+        background-size: 360% 100%;    }
+}
+@media (max-width:650px){
+    .model_3_homepage {
+        background-size: 300% 100%;    }
+}
+@media (max-width:700px){
+    .model_3_homepage {
+        background-size: 250% 100%;    }
+}
+@media (max-width:768px){
+    .model_3_homepage {
+        background-size: 220% 100%;    }
+}

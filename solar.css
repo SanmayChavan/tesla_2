@@ -1,0 +1,17 @@
+.model_3_homepage {
+    height: 100%;
+    width: 100%;
+    background-image: url("images/solar-roof-protection-outage-01-desktop.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.m3_text_img{
+    background-color: black;
+    color: white;
+}
+@media (max-width:768px){
+    .home_page_h1 {
+        font-size: 30px;
+      }
+}
